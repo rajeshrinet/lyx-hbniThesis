@@ -1,0 +1,1593 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\begin_preamble
+\usepackage{amsmath, appendix, fullpage}
+\usepackage[colorlinks=true,linktocpage=true,linkcolor=MidnightBlue,urlcolor=MidnightBlue,citecolor=MidnightBlue,anchorcolor=MidnightBlue]{hyperref}
+\usepackage[dvipsnames]{xcolor}
+\newcommand{\myparallel}{{\mkern3mu\vphantom{\perp}\vrule depth 0pt\mkern2.5mu\vrule depth 0pt\mkern3mu}}
+
+\usepackage[a4paper, margin=3.0cm]{geometry}
+\textheight 23.7cm
+\textwidth 15.0cm
+\parindent 0.0cm
+\parskip 0.3cm 
+\cleardoublepage
+
+%for blank pages
+\usepackage{afterpage}
+\newcommand\blankpage{%
+    \null
+    \thispagestyle{empty}%
+    \addtocounter{page}{-1}%
+    \newpage}
+
+\usepackage{mathptmx, txfonts}
+\usepackage{amsmath,mathtools, bm}
+\usepackage{setspace, cite}
+\usepackage[english]{babel}
+\usepackage[numbers,square,sort&compress]{natbib}
+\addto\extrasenglish{\renewcommand{\chapterautorefname}{Chapter}%
+}
+\end_preamble
+\use_default_options true
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing double
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\headheight 1in
+\headsep 1in
+\footskip 0.25in
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 2
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size largest
+Template for thesis
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\align center
+
+\series bold
+\shape italic
+By
+\shape default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size larger
+Rajesh Singh
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size large
+PHYS10201204001
+\size default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{0.5cm}
+\end_layout
+
+\end_inset
+
+
+\size large
+The Institute of Mathematical Sciences, Chennai
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size large
+A thesis submitted to the
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Board of Studies in Physical Sciences
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+In partial fulfillment of requirements
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+For the Degree of
+\shape default
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+vspace{0.3cm}
+\end_layout
+
+\end_inset
+
+
+\size large
+DOCTOR OF PHILOSOPHY
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+vspace{0.25cm}
+\end_layout
+
+\end_inset
+
+
+\shape italic
+of
+\shape default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+vspace{0.25cm}
+\end_layout
+
+\end_inset
+
+
+\size large
+HOMI BHABHA NATIONAL INSTITUTE
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{1.75cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename plots/hbnilogo.jpg
+	display false
+	width 22.5text%
+	rotateOrigin center
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{1cm}
+\end_layout
+
+\end_inset
+
+
+\size large
+September, 2017
+\series default
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{gobble}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+blankpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size largest
+Homi Bhabha National Institute
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\size large
+Recommendations of the Viva Voce Board
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-.4cm}
+\backslash
+singlespacing{}
+\end_layout
+
+\end_inset
+
+As members of the Viva Voce Committee, we certify that we have read the
+ dissertation prepared by Rajesh Singh entitled “Microhydrodynamics of active
+ colloids” and recommend that it maybe accepted as fulfilling the dissertation
+ requirement for the Degree of Doctor of Philosophy.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12.0cm}} {
+\backslash
+bf Date:} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Chair - 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12.0cm}} {
+\backslash
+bf Date:} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Guide/Convener - 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12.0cm}} {
+\backslash
+bf Date:} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Examiner - 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12.0cm}} {
+\backslash
+bf Date:} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Member 1 - 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12.0cm}} {
+\backslash
+bf Date:} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Member 2 - 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+underline{
+\backslash
+hspace{12.0cm}} {
+\backslash
+bf Date:} 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Member 3 - 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Final approval and acceptance of this dissertation is contingent upon the
+ candidate's submission of the final copies of the dissertation to HBNI.
+\end_layout
+
+\begin_layout Standard
+I hereby certify that I have read this dissertation prepared under my direction
+ and recommend that it may be accepted as fulfilling the dissertation requiremen
+t.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+bf Date:}
+\backslash
+
+\backslash
+
+\backslash
+
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+bf Place:} 
+\backslash
+hfill {
+\backslash
+bf Guide} 
+\backslash
+hspace{2.0cm}
+\backslash
+afterpage{
+\backslash
+blankpage} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+STATEMENT BY AUTHOR
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+doublespacing{ }
+\end_layout
+
+\end_inset
+
+This dissertation has been submitted in partial fulfillment of requirements
+ for an advanced degree at Homi Bhabha National Institute (HBNI) and is
+ deposited in the Library to be made available to borrowers under rules
+ of the HBNI.
+ 
+\end_layout
+
+\begin_layout Standard
+Brief quotations from this dissertation are allowable without special permission
+, provided that accurate acknowledgement of source is made.
+ Requests for permission for extended quotation from or reproduction of
+ this manuscript in whole or in part may be granted by the Competent Authority
+ of HBNI when in his or her judgement the proposed use of the material is
+ in the interests of scholarship.
+ In all other instances, however, permission must be obtained from the author.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+hfill 
+\backslash
+underline{
+\backslash
+hspace{4cm}} 
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{4cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill Rajesh Singh$
+\backslash
+qquad$
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+blankpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+DECLARATION
+\end_layout
+
+\begin_layout Standard
+I, hereby declare that the investigation presented in the thesis has been
+ carried out by me.
+ The work is original and has not been submitted earlier as a whole or in
+ part for a degree / diploma at this or any other Institution / University.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+ 
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+hfill 
+\backslash
+underline{
+\backslash
+hspace{4cm}} 
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{4cm}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill Rajesh Singh$
+\backslash
+qquad$
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+blankpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+List of Publications arising from the thesis
+\end_layout
+
+\begin_layout Standard
+a.
+ 
+\bar under
+Published
+\end_layout
+
+\begin_layout Standard
+b.
+ 
+\bar under
+Submitted
+\end_layout
+
+\begin_layout Standard
+c.
+ 
+\bar under
+Under preparation
+\end_layout
+
+\begin_layout Standard
+d.
+ 
+\bar under
+Other publications (not included in the thesis)
+\end_layout
+
+\begin_layout Standard
+e.
+ 
+\bar under
+Conferences
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+ 
+\backslash
+hfill 
+\backslash
+underline{
+\backslash
+hspace{4cm}} 
+\backslash
+
+\backslash
+ 
+\backslash
+vspace{8cm}
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill Rajesh Singh$
+\backslash
+qquad$
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+List of corrections and changes as suggested by the examiners
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Synopsis
+\end_layout
+
+\begin_layout Itemize
+Fixed typographical errors.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Chapter 1
+\end_layout
+
+\begin_layout Itemize
+Fix section 1
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Appendix
+\end_layout
+
+\begin_layout Itemize
+Fix notations
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{.8cm}
+\end_layout
+
+\end_inset
+
+The corrections and changes suggested by the Thesis and Viva Voce Examiners
+ have been incorporated in the thesis.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{1.6cm}Guide
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+blankpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+DEDICATIONS
+\begin_inset VSpace 2cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\shape italic
+\size largest
+–
+\series default
+\shape default
+\size default
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+blankpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+ACKNOWLEDGEMENTS
+\end_layout
+
+\begin_layout Standard
+Thanks to all!!
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+blankpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align right
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{roman}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size large
+Abstract
+\end_layout
+
+\begin_layout Standard
+The summary 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+afterpage{
+\backslash
+blankpage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+setcounter{page}{1} 
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+pagenumbering{arabic}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage 
+\backslash
+phantomsection 
+\backslash
+addcontentsline{toc}{chapter}{Synopsis}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+
+\series bold
+\size huge
+Synopsis
+\series default
+\size default
+
+\begin_inset VSpace 0.8cm*
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Detailed summary
+\series default
+
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage 
+\backslash
+phantomsection 
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+listfigurename} 
+\backslash
+listoffigures
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage 
+\backslash
+phantomsection 
+\backslash
+addcontentsline{toc}{chapter}{
+\backslash
+listtablename} 
+\backslash
+listoftables
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cleardoublepage 
+\backslash
+phantomsection 
+\backslash
+addcontentsline{toc}{chapter}{List of Symbols}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter*
+
+\series bold
+\size huge
+List of Symbols
+\end_layout
+
+\begin_layout Standard
+List of symbols
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter-01.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter-02.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter-03.lyx"
+
+\end_inset
+
+
+\begin_inset CommandInset include
+LatexCommand include
+filename "chapter-04.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\start_of_appendix
+\begin_inset CommandInset include
+LatexCommand include
+filename "appendix-01.lyx"
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nocite{apsrev41Control}
+\backslash
+addcontentsline{toc}{chapter}{References}
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "references"
+options "apsrev4-1"
+
+\end_inset
+
+ 
+\end_layout
+
+\end_body
+\end_document
