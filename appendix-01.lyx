@@ -133,7 +133,7 @@ This is the intro to appendix.
 \end_layout
 
 \begin_layout Section
-Derivation of boundary-domain integral equation
+Derivation of main analytical results
 \begin_inset CommandInset label
 LatexCommand label
 name "app:01"
